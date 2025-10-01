@@ -1,6 +1,4 @@
-def average_rating(rating_list: list[int]) -> int:
-    """Returns average rating of the books."""
-
+def average_rating(rating_list):
     if not rating_list:
         return 0
 
